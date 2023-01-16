@@ -1,0 +1,362 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,500;1,500&family=Work+Sans:wght@500&display=swap');
+
+/* header styles */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-detail {
+    display: flex;
+}
+
+.about-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 300px;
+}
+
+.nav-info {
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 300px;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.button {
+    color: #FFFFFF;
+    padding: 20px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.banner {
+    margin-left: 100px;
+}
+
+/* main styles */
+.list {
+    display: flex;
+    gap: 80px;
+    margin: 90px;
+    align-items: center;
+}
+
+.features-list {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 15px;
+}
+
+span,
+.our {
+    color: black;
+}
+
+span {
+    color: #FF900E;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 24px;
+    margin-left: 150px;
+}
+
+.team img {
+    width: 220px;
+    height: 220px;
+}
+
+/* architect styles */
+.architect {
+    display: flex;
+    gap: 200px;
+    margin: 120px;
+}
+
+.feature-container {
+    margin-left: 100px;
+}
+
+.features-title {
+    font-weight: 700px;
+    font-size: 45px;
+    padding: 8px;
+    color: #131313;
+    border-left: 4px solid #FF900E;
+}
+
+.box {
+    box-shadow: 1px 5px 3px 5px #faf9f9;
+    padding: 15px;
+}
+
+.features-description,
+.feature-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.architect-image {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.architect-image img {
+    width: 400px;
+    height: 600px;
+}
+
+.button-2 {
+    background-color: #FF900E;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: -80px;
+    margin-bottom: -50px;
+    font-weight: 700;
+    font-size: 15px;
+    height: 80px;
+}
+
+/* fact style */
+.fact-container {
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+    margin-bottom: 100px;
+}
+
+.fact-item {
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #FF900E;
+    height: 130px;
+    width: 120px;
+    text-align: center;
+}
+
+.fact-image {
+    height: 30px;
+}
+
+.fact-title {
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.fact-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-bottom: 50px;
+    margin-top: -35px;
+}
+
+.about-fact {
+    margin-left: 200px;
+    margin-bottom: 2px;
+}
+
+.fact-title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 35px;
+}
+
+.fact-description {
+    font-weight: 400;
+    font-size: 10px;
+    color: #727272;
+}
+
+/* animation */
+.fact-item{
+    transition: width 0.5s ease, height 0.5s;
+}
+.fact-item:hover{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+
+/* sponsor styles */
+.sponsor-head {
+    text-align: center;
+}
+
+.sponsor-title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #131313;
+
+}
+
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 40px;
+}
+
+.sponsor-container {
+    display: flex;
+    gap: 250px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.s-image img {
+    width: 90px;
+    height: 30px;
+}
+
+/* bonus styles */
+.vision-title,
+.mission-title {
+    font-weight: 800px;
+    font-size: 60px;
+    color: #FF900E;
+    margin-bottom: 10px;
+}
+
+.about-vision {
+    display: flex;
+    gap: 400px;
+    margin-left: 240px;
+    margin-bottom: 20px;
+}
+
+.vision-image img {
+    margin-top: 30px;
+    width: 700px;
+    height: 300px;
+}
+
+.about-mission {
+    display: flex;
+    gap: 200px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+
+.mission-image img {
+    width: 700px;
+    height: 300px;
+}
+
+.vision {
+    background-color: lightblue;
+    margin-bottom: 50px;
+}
+
+/* footer styles */
+.copyright p {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #424242;
+    padding: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+
+/* Responsive of Mobile device */
+
+@media screen and (max-width:688px) {
+    .header{
+        width: 100%;
+    }
+    .about-nav, .list, .architect, .fact, .sponsor, .bonus{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+    .nav-title, .features, .features-item, .features-list, .architect, .feature-container{
+        margin-left: 0;
+    }
+    .nav-info{
+        flex-direction: column;
+    }
+    .fact-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-fact{
+        margin-left: 0;
+    }
+    .sponsor-container{
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 0;
+    }
+    .architect-image img{
+        height: 400px;
+        width: 350px;
+    }
+    .about-vision, .about-mission{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .vision-title, .mission-title{
+        font-size: 40px;
+    }
+    .vision-image img{
+        height: 120px;
+        width: 120px;
+    }
+    .mission-image img{
+        height: 120px;
+        width: 120px;
+    }
+    .banner img{
+        height: 150px;
+        width: 250px;
+        margin-left: 10px;
+    }
+    .team img{
+        margin-left: 0;
+        height: 100px;
+        width: 100px;
+    }
+    .copyright{
+        padding: 0;
+    }
+    .copyright p{
+        margin: 0;
+    }
+}
